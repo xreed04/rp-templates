@@ -1,0 +1,35 @@
+/* === ZOOM + FILTRE PHOTO === */
+.atai-perso > img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+  filter: none;
+}
+.atai-perso:hover > img {
+  transform: scale(1.06);
+  filter: saturate(0.3) sepia(0.3) hue-rotate(300deg) brightness(0.95);
+}
+
+/* === BOUTON SIGNAL === */
+.atai-signal {
+  display: block;
+  text-align: center;
+  background: transparent;
+  border: 1px solid #d4a0b0;
+  border-radius: 30px;
+  margin: 8px 14px 0;
+  padding: 9px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #9e2456;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.atai-signal:hover {
+  background: #9e2456;
+  color: #fff !important;
+}
+.atai-signal-ok {
+  background: #e8f5e8 !important;
+  border-color: #88cc88 !important;
+  color: #336633 !important;
+}
