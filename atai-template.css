@@ -12,8 +12,8 @@
 .atai-vu-dot{display:inline-block;width:7px;height:7px;border-radius:4px;background:#4cd964;vertical-align:middle;margin-right:4px;}
 .atai-vu-txt{font-size:10px;color:#fff;vertical-align:middle;}
 .atai-toggle{display:none;}
-.atai-btn{display:block;text-align:center;background:#9e2456;color:#fff;font-size:12px;font-weight:bold;padding:9px 0;cursor:pointer;letter-spacing:0.5px;}
-.atai-btn:hover{background:#7a1a40;}
+.atai-btn{display:block;text-align:center;background:#9e2456;color:#fff;font-size:12px;font-weight:bold;padding:11px 20px;cursor:pointer;letter-spacing:0.5px;border-radius:30px;margin:10px 14px;border:2px solid #c45c8a;}
+.atai-btn:hover{background:#7a1a40;color:#fff !important;}
 .atai-contenu{max-height:0;overflow:hidden;}
 .atai-toggle:checked ~ .atai-contenu{max-height:9999px;}
 .atai-toggle:checked ~ .atai-btn{background:#7a1a40;}
