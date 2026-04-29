@@ -1,0 +1,32 @@
+.atai-wrap{width:310px;border:1px solid #d4a0b0;border-radius:16px;overflow:hidden;font-family:Arial,sans-serif;background:#f9edf3;margin:0 auto;padding:0;}
+.atai-header{background:#9e2456;text-align:center;padding:14px 0 10px;border-bottom:1px solid #7a1a40;}
+.atai-header img{width:90px;height:90px;display:inline-block;border:0;}
+.atai-perso{position:relative;width:310px;height:310px;overflow:hidden;}
+.atai-perso img{width:310px;height:310px;display:block;border:0;object-fit:cover;}
+.atai-perso-infos{position:absolute;bottom:0;left:0;width:100%;background:linear-gradient(transparent,rgba(100,10,50,0.80));padding:40px 14px 12px;box-sizing:border-box;}
+.atai-name{font-size:18px;color:#fff;font-weight:bold;}
+.atai-age{font-size:13px;color:rgba(255,255,255,0.85);}
+.atai-loc{font-size:11px;color:rgba(255,255,255,0.7);display:block;margin-top:3px;}
+.atai-mood{font-size:11px;color:rgba(255,255,255,0.75);font-style:italic;display:block;margin-top:5px;}
+.atai-vu{position:absolute;top:10px;right:10px;background:rgba(100,10,50,0.50);border-radius:20px;padding:3px 8px;display:inline-block;}
+.atai-vu-dot{display:inline-block;width:7px;height:7px;border-radius:4px;background:#4cd964;vertical-align:middle;margin-right:4px;}
+.atai-vu-txt{font-size:10px;color:#fff;vertical-align:middle;}
+.atai-bloc{padding:8px 10px 0;}
+.atai-card{background:#fff;border-radius:12px;padding:10px 14px 12px;}
+.atai-titre{font-size:9px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;color:#c45c8a;display:block;margin-bottom:7px;}
+.atai-ligne{font-size:12px;color:#5a3040;display:block;line-height:1.9;}
+.atai-ligne b{color:#9e2456;}
+.atai-badge-serieux{display:inline-block;background:#fff0f4;border:1px solid #d4789e;border-radius:20px;padding:4px 12px;font-size:12px;color:#9e2456;font-weight:bold;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-badge-amis{display:inline-block;background:#f0f4ff;border:1px solid #8899dd;border-radius:20px;padding:4px 12px;font-size:12px;color:#4455aa;font-weight:bold;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-badge-fun{display:inline-block;background:#fff8ee;border:1px solid #ddaa55;border-radius:20px;padding:4px 12px;font-size:12px;color:#aa7700;font-weight:bold;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-pastille{display:inline-block;background:#f5f5f5;border:1px solid #ccc;border-radius:20px;padding:3px 10px;font-size:11px;color:#555;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-pastille b{color:#9e2456;}
+.atai-tag{display:inline-block;background:#f9edf3;border:1px solid #d4a0b0;border-radius:20px;padding:3px 10px;font-size:11px;color:#9e2456;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-photos{padding:8px 10px 0;}
+.atai-photos-card{background:#fff;border-radius:12px;padding:10px 6px 8px;line-height:0;font-size:0;}
+.atai-photos-lbl{font-size:9px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;color:#c45c8a;display:block;margin-bottom:6px;padding-left:4px;line-height:normal;}
+.atai-photo{display:inline-block;width:88px;height:88px;border-radius:8px;overflow:hidden;margin:2px;vertical-align:top;}
+.atai-photo img{width:88px;height:88px;display:block;border:0;}
+.atai-bio{padding:8px 10px 12px;}
+.atai-bio-card{background:#fff;border-radius:12px;padding:10px 14px 12px;}
+.atai-bio-txt{font-size:12px;color:#5a3040;line-height:1.6;font-style:italic;display:block;}
