@@ -1,0 +1,170 @@
+/* ================================
+   TEMPLATE TINDER RP
+   À héberger sur GitHub Pages
+   ================================ */
+
+/* --- CARTE PRINCIPALE --- */
+.trp-carte {
+  width: 310px;
+  border: 1px solid #e0d5cc;
+  border-radius: 16px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #faf3ee;
+}
+
+/* --- HEADER --- */
+.trp-header {
+  background: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ede5de;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FF6B6B;
+}
+
+/* --- PHOTO HERO AVEC DÉGRADÉ --- */
+.trp-hero {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  overflow: hidden;
+}
+
+.trp-hero img {
+  width: 310px;
+  height: 310px;
+  display: block;
+  border: 0;
+  object-fit: cover;
+}
+
+.trp-hero-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+  padding: 40px 14px 12px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.trp-hero-info b {
+  font-size: 18px;
+  color: #fff;
+}
+
+.trp-hero-info i {
+  font-size: 11px;
+  color: rgba(255,255,255,0.75);
+}
+
+.trp-vu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 20px;
+  padding: 3px 8px;
+  font-size: 10px;
+  color: #fff;
+}
+
+.trp-vu::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4cd964;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+/* --- SECTIONS --- */
+.trp-section {
+  background: #fff;
+  padding: 10px 14px 12px;
+  border-bottom: 1px solid #ede5de;
+  line-height: 1.8;
+  font-size: 12px;
+  color: #5a4a44;
+}
+
+/* --- LABEL (titre de section) --- */
+.trp-label {
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c4b5ae;
+  display: block;
+  margin-bottom: 7px;
+}
+
+/* --- BADGES RECHERCHE (colorés) --- */
+.trp-badge {
+  display: inline-block;
+  background: #fff0f0;
+  border: 1px solid #ffd0d0;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #FF6B6B;
+  margin: 2px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* --- TAGS INTÉRÊTS (neutres) --- */
+.trp-tag {
+  display: inline-block;
+  background: #faf3ee;
+  border: 1px solid #e0d5cc;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #5a4a44;
+  margin: 2px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* --- GRILLE PHOTOS --- */
+.trp-photos {
+  padding: 4px 10px 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.trp-photos img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 2px;
+  border: 0;
+  vertical-align: top;
+}
+
+/* --- BIO --- */
+.trp-bio {
+  padding: 8px 10px 12px;
+  background: #faf3ee;
+}
+
+.trp-bio-inner {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ede5de;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #5a4a44;
+  line-height: 1.6;
+  font-style: italic;
+}
