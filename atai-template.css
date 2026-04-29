@@ -1,0 +1,30 @@
+.atai-wrap{width:310px;border:1px solid #d4a0b0;border-radius:16px;overflow:hidden;font-family:Arial,sans-serif;background:#f9edf3;}
+.atai-header{background:#9e2456;text-align:center;padding:14px 0 10px;border-bottom:1px solid #7a1a40;}
+.atai-header img{width:90px;height:90px;display:inline-block;border:0;}
+.atai-hero{position:relative;width:310px;height:310px;overflow:hidden;}
+.atai-hero img{width:310px;height:310px;display:block;border:0;object-fit:cover;}
+.atai-hero-info{position:absolute;bottom:0;left:0;width:100%;background:linear-gradient(transparent,rgba(100,10,50,0.80));padding:40px 14px 12px;box-sizing:border-box;}
+.atai-hero-info b{font-size:18px;color:#fff;}
+.atai-hero-info .age{font-size:13px;color:rgba(255,255,255,0.85);}
+.atai-hero-info .loc{font-size:11px;color:rgba(255,255,255,0.7);display:block;margin-top:2px;}
+.atai-hero-info .mood{font-size:11px;color:rgba(255,255,255,0.75);font-style:italic;display:block;margin-top:5px;}
+.atai-vu{position:absolute;top:10px;right:10px;background:rgba(100,10,50,0.50);border-radius:20px;padding:3px 8px;display:inline-block;}
+.atai-vu-dot{display:inline-block;width:7px;height:7px;border-radius:4px;background:#4cd964;vertical-align:middle;margin-right:4px;}
+.atai-vu span{font-size:10px;color:#fff;vertical-align:middle;}
+.atai-section{padding:8px 10px 0;}
+.atai-card{background:#fff;border-radius:12px;padding:10px 14px 12px;}
+.atai-label{font-size:9px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;color:#c45c8a;display:block;margin-bottom:7px;}
+.atai-line{font-size:12px;color:#5a3040;display:block;line-height:1.8;}
+.atai-line b{color:#9e2456;}
+.atai-badge{display:inline;background:#f9edf3;border:1px solid #d4a0b0;border-radius:20px;padding:4px 12px;font-size:12px;color:#9e2456;font-weight:bold;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-chip{display:inline-block;background:#f9edf3;border:1px solid #d4a0b0;border-radius:20px;padding:3px 10px;font-size:11px;color:#5a3040;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-chip b{color:#9e2456;}
+.atai-tag{display:inline-block;background:#f9edf3;border:1px solid #d4a0b0;border-radius:20px;padding:3px 10px;font-size:11px;color:#9e2456;margin:2px;text-decoration:none;white-space:nowrap;}
+.atai-photos-wrap{padding:8px 10px 0;}
+.atai-photos-card{background:#fff;border-radius:12px;padding:10px 6px 8px;}
+.atai-photos-grid{line-height:0;font-size:0;}
+.atai-photo{display:inline-block;width:88px;height:88px;border-radius:8px;overflow:hidden;margin:2px;vertical-align:top;}
+.atai-photo img{width:88px;height:88px;display:block;border:0;}
+.atai-bio{padding:8px 10px 12px;}
+.atai-bio-card{background:#fff;border-radius:12px;padding:10px 14px 12px;}
+.atai-bio-text{font-size:12px;color:#5a3040;line-height:1.6;font-style:italic;}
