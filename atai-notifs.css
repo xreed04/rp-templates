@@ -40,8 +40,8 @@ bsousdate{display:block;font-size:11px;color:rgba(255,255,255,0.6);}
 bcorps{display:block;background:#fff;border-left:1px solid #f0d0e0;border-right:1px solid #f0d0e0;padding:16px 20px;text-align:center;}
 bduo{display:block;text-align:center;font-size:0;}
 bperso{display:inline-block;vertical-align:middle;text-align:center;margin:0 6px;font-size:14px;}
-bphoto{display:inline-block;width:56px;height:56px;border-radius:50%;border:2px solid #f0c0d0;overflow:hidden;}
-bphoto img{width:56px;height:56px;display:block;border:0;object-fit:cover;}
+bphoto{display:inline-block;width:75px;height:75px;border-radius:12px;border:2px solid #f0c0d0;overflow:hidden;}
+bphoto img{width:75px;height:75px;display:block;border:0;object-fit:cover;}
 bprenom{display:block;font-size:13px;font-weight:bold;color:#9e2456;margin-top:6px;}
 bcroix{display:inline-block;vertical-align:middle;font-size:20px;color:#d4a0b0;margin:0 4px;}
 bpointille{display:block;border-top:1px dashed #f0d0e0;margin:14px -20px 0;}
