@@ -36,8 +36,8 @@
 .atai-photos{padding:8px 10px 0;}
 .atai-photos-card{background:#fff;border-radius:12px;padding:10px 6px 8px;line-height:0;font-size:0;}
 .atai-photos-lbl{font-size:9px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;color:#c45c8a;display:block;margin-bottom:6px;padding-left:4px;line-height:normal;}
-.atai-photo{display:inline-block;width:84px;height:84px;border-radius:8px;overflow:hidden;margin:2px;vertical-align:top;}
-.atai-photo img{width:84px;height:84px;display:block;border:0;}
+.atai-photo{display:inline-block;width:84px;height:84px;border-radius:8px;margin:2px;vertical-align:top;object-fit:cover;}
+
 .atai-bio{padding:8px 10px 12px;}
 .atai-bio-card{background:#fff;border-radius:12px;padding:10px 14px 12px;}
 .atai-bio-txt{font-size:12px;color:#5a3040;line-height:1.6;font-style:italic;display:block;}
