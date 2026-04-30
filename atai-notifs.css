@@ -1,0 +1,42 @@
+.an{font-family:Arial,sans-serif;width:320px;border-radius:16px;overflow:hidden;margin-bottom:16px;}
+.an-header{padding:10px 14px;display:flex;align-items:center;gap:10px;}
+.an-icon{width:36px;height:36px;border-radius:50%;text-align:center;line-height:36px;font-size:18px;flex-shrink:0;display:inline-block;}
+.an-meta{flex:1;display:inline-block;vertical-align:middle;}
+.an-pseudo{font-size:13px;font-weight:bold;text-decoration:none;}
+.an-txt{font-size:12px;color:#888;}
+.an-date{font-size:10px;color:#c4b5ae;display:block;margin-top:2px;}
+.an-tag{display:inline-block;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:bold;}
+.an-body{padding:0 14px 12px;}
+.an-label{font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5px;display:block;padding-top:10px;margin-bottom:4px;}
+.an-msg{border-radius:0 12px 12px 12px;padding:8px 12px;font-size:12px;font-style:italic;line-height:1.5;}
+
+.an-like{background:#fff;border:1.5px solid #f0c0d0;}
+.an-like .an-header{background:#fbeef4;}
+.an-like .an-icon{background:#fff0f4;}
+.an-like .an-pseudo{color:#9e2456;}
+.an-like .an-label{color:#c45c8a;}
+.an-like .an-msg{background:#fbeef4;color:#5a3040;}
+
+.an-superlike{background:#fff;border:1.5px solid #aabbee;}
+.an-superlike .an-header{background:#f0f4ff;}
+.an-superlike .an-icon{background:#dde4ff;}
+.an-superlike .an-pseudo{color:#4455aa;}
+.an-superlike .an-tag{background:#dde4ff;color:#4455aa;}
+.an-superlike .an-label{color:#6677bb;}
+.an-superlike .an-msg{background:#f0f4ff;color:#4455aa;}
+
+.an-match{background:#fff;border:1.5px solid #9e2456;}
+.an-match .an-header{background:#9e2456;}
+.an-match .an-icon{background:rgba(255,255,255,0.2);}
+.an-match .an-pseudo{color:#ffc8e0;}
+.an-match .an-txt{color:#fff;}
+.an-match .an-date{color:rgba(255,255,255,0.6);}
+.an-match .an-label{color:#c45c8a;}
+.an-match .an-msg{background:#fbeef4;color:#5a3040;font-style:normal;}
+
+.an-pass{background:#fff;border:1.5px solid #e0d5cc;}
+.an-pass .an-icon{background:#f5f5f5;}
+.an-pass .an-pseudo{color:#888;}
+.an-pass .an-txt{color:#aaa;}
+.an-pass .an-date{color:#ddd;}
+.an-pass .an-msg{background:#f9f9f9;color:#aaa;font-style:normal;}
