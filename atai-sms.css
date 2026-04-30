@@ -1,16 +1,16 @@
-.sms-wrap{background:#fff;border-radius:16px;overflow:hidden;max-width:360px;margin:0 auto;font-family:Arial,sans-serif;border:1px solid #f0d0e0;}
+.sms-wrap{background:#fff;border-radius:16px;overflow:hidden;width:360px;margin:0 auto;font-family:Arial,sans-serif;border:1px solid #f0d0e0;}
 .sms-header{background:#9e2456;padding:10px 14px;display:flex;align-items:center;gap:10px;}
 .sms-avatar{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,0.2);text-align:center;line-height:34px;font-size:16px;display:inline-block;vertical-align:middle;}
 .sms-header-info{display:inline-block;vertical-align:middle;padding-left:4px;}
 .sms-header-name{font-size:13px;font-weight:bold;color:#fff;display:block;}
 .sms-header-sub{font-size:10px;color:rgba(255,255,255,0.6);display:block;}
-.sms-body{padding:14px 12px;background:#fff;}
+.sms-body{padding:14px 12px;background:#fff;width:360px;box-sizing:border-box;}
 .sms-row-recu{display:block;text-align:left;margin-bottom:6px;}
 .sms-row-envoye{display:block;text-align:right;margin-bottom:6px;}
-.sms-bulle-recu{display:inline-block;background:#fbeef4;border-radius:4px 14px 14px 14px;padding:9px 13px;max-width:75%;font-size:13px;color:#5a3040;line-height:1.5;text-align:left;vertical-align:top;}
-.sms-bulle-recu-suite{display:inline-block;background:#fbeef4;border-radius:14px 14px 14px 4px;padding:9px 13px;max-width:75%;font-size:13px;color:#5a3040;line-height:1.5;text-align:left;vertical-align:top;}
-.sms-bulle-envoye{display:inline-block;background:#f0f0f0;border-radius:14px 4px 14px 14px;padding:9px 13px;max-width:75%;font-size:13px;color:#444;line-height:1.5;text-align:left;vertical-align:top;}
-.sms-bulle-envoye-suite{display:inline-block;background:#f0f0f0;border-radius:14px 14px 4px 14px;padding:9px 13px;max-width:75%;font-size:13px;color:#444;line-height:1.5;text-align:left;vertical-align:top;}
+.sms-bulle-recu{display:inline-block;background:#fbeef4;border-radius:4px 14px 14px 14px;padding:9px 13px;width:200px;font-size:13px;color:#5a3040;line-height:1.5;text-align:left;vertical-align:top;}
+.sms-bulle-recu-suite{display:inline-block;background:#fbeef4;border-radius:14px 14px 14px 4px;padding:9px 13px;width:200px;font-size:13px;color:#5a3040;line-height:1.5;text-align:left;vertical-align:top;}
+.sms-bulle-envoye{display:inline-block;background:#f0f0f0;border-radius:14px 4px 14px 14px;padding:9px 13px;width:200px;font-size:13px;color:#444;line-height:1.5;text-align:left;vertical-align:top;}
+.sms-bulle-envoye-suite{display:inline-block;background:#f0f0f0;border-radius:14px 14px 4px 14px;padding:9px 13px;width:200px;font-size:13px;color:#444;line-height:1.5;text-align:left;vertical-align:top;}
 .sms-img-recu{display:inline-block;background:#fbeef4;border-radius:4px 14px 14px 14px;padding:4px;overflow:hidden;vertical-align:top;}
 .sms-img-envoye{display:inline-block;background:#f0f0f0;border-radius:14px 4px 14px 14px;padding:4px;overflow:hidden;vertical-align:top;}
 .sms-img-recu img,.sms-img-envoye img{display:block;width:200px;height:150px;max-width:200px;max-height:160px;border-radius:10px;border:0;object-fit:cover;}
