@@ -11,7 +11,7 @@ nphoto img{width:75px;height:75px;display:block;border:0;object-fit:cover;}
 nmsg{display:block;background:#fbeef4;border-left:1px solid #f0c0d0;border-right:1px solid #f0c0d0;border-top:1px dashed #f0c0d0;padding:10px 14px;}
 .nlike-label{display:block;font-size:9px;color:#c45c8a;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;border:0;outline:0;}
 .nlike-bulle{display:block;font-size:12px;color:#5a3040;font-style:italic;background:#fff;border-radius:0 10px 10px 10px;padding:8px 10px;border:1px solid #f0d0e0;}
-nbas{display:block;padding:7px 14px;border-radius:0 0 14px 14px;}
+nbas{display:block;padding:7px 14px;border-radius:0 0 14px 14px;text-align:left;}
 .nlike-bas{background:#c45c8a;}
 nbas-label{display:inline-block;font-size:9px;color:rgba(255,255,255,0.5);}
 nbas-droite{display:inline-block;float:right;font-size:9px;color:rgba(255,255,255,0.3);}
