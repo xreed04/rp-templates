@@ -32,3 +32,22 @@
 .atai-toggle:checked ~ .atai-contenu .atai-bloc:nth-child(4) { animation-delay: 0.35s; opacity: 0; }
 .atai-toggle:checked ~ .atai-contenu .atai-photos         { animation-delay: 0.45s; opacity: 0; }
 .atai-toggle:checked ~ .atai-contenu .atai-bio            { animation-delay: 0.55s; opacity: 0; }
+
+/* === BORDURE ANIMÉE === */
+@keyframes bordure-rotate {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.atai-wrap {
+  border: none;
+  padding: 2px;
+  background: linear-gradient(270deg, #9e2456, #f0a0c0, #d4a0b0, #9e2456);
+  background-size: 400% 400%;
+  animation: bordure-rotate 4s ease infinite;
+}
+.atai-wrap-inner {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #f9edf3;
+}
