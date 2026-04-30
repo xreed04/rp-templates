@@ -1,37 +1,33 @@
-.an{font-family:Arial,sans-serif;width:320px;border-radius:16px;overflow:hidden;margin-bottom:16px;}
-.an-header{padding:10px 14px;display:flex;align-items:center;gap:10px;}
-.an-icon{width:36px;height:36px;border-radius:50%;text-align:center;line-height:36px;font-size:18px;flex-shrink:0;display:inline-block;vertical-align:middle;}
-.an-meta{flex:1;display:inline-block;vertical-align:middle;padding-left:8px;}
-.an-pseudo{font-size:13px;font-weight:bold;text-decoration:none;}
-.an-txt{font-size:12px;color:#888;}
-.an-date{font-size:10px;color:#c4b5ae;display:block;margin-top:2px;}
-.an-tag{display:inline-block;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:bold;}
-.an-body{padding:0 14px 12px;}
-.an-label{font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5px;display:block;padding-top:10px;margin-bottom:4px;border:0 !important;outline:0 !important;}
-.an-msg{border-radius:0 12px 12px 12px;padding:8px 12px;font-size:12px;font-style:italic;line-height:1.5;}
+/* LIKE */
+nlike{display:block;width:300px;font-family:Arial,sans-serif;margin:0 auto;}
+.nlike-entete{display:block;background:#c45c8a;border-radius:14px 14px 0 0;text-align:center;padding:12px 16px;}
+nsurtitre{display:block;font-size:10px;letter-spacing:2px;color:rgba(255,255,255,0.5);text-transform:uppercase;margin-bottom:4px;}
+ntitre{display:block;font-size:18px;font-weight:bold;color:#fff;}
+ndate{display:block;font-size:10px;color:rgba(255,255,255,0.55);margin-top:4px;}
+ncorps{display:block;background:#fff;border-left:1px solid #f0c0d0;border-right:1px solid #f0c0d0;padding:14px 16px;text-align:center;}
+nphoto{display:inline-block;width:75px;height:75px;border-radius:12px;border:2px solid #f0c0d0;overflow:hidden;margin-bottom:8px;}
+nphoto img{width:75px;height:75px;display:block;border:0;object-fit:cover;}
+.npseudo-like{display:block;font-size:14px;font-weight:bold;color:#c45c8a;text-decoration:none;}
+nmsg{display:block;background:#fbeef4;border-left:1px solid #f0c0d0;border-right:1px solid #f0c0d0;border-top:1px dashed #f0c0d0;padding:10px 14px;}
+.nlike-label{display:block;font-size:9px;color:#c45c8a;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;border:0;outline:0;}
+.nlike-bulle{display:block;font-size:12px;color:#5a3040;font-style:italic;background:#fff;border-radius:0 10px 10px 10px;padding:8px 10px;border:1px solid #f0d0e0;}
+nbas{display:block;padding:7px 14px;border-radius:0 0 14px 14px;}
+.nlike-bas{background:#c45c8a;}
+nbas-label{display:block;font-size:9px;color:rgba(255,255,255,0.5);}
 
-.an-like{background:#fff;border:1.5px solid #f0c0d0;}
-.an-like .an-header{background:#fbeef4;}
-.an-like .an-icon{background:#fff0f4;}
-.an-like .an-pseudo{color:#9e2456;}
-.an-like .an-label{color:#c45c8a;}
-.an-like .an-msg{background:#fbeef4;color:#5a3040;}
+/* SUPER LIKE */
+nsuperlike{display:block;width:300px;font-family:Arial,sans-serif;margin:0 auto;}
+.nsuperlike-entete{display:block;background:#8899dd;border-radius:14px 14px 0 0;text-align:center;padding:12px 16px;}
+.nsuperlike-photo{display:inline-block;width:75px;height:75px;border-radius:12px;border:2px solid #aabbee;overflow:hidden;margin-bottom:8px;}
+.nsuperlike-photo img{width:75px;height:75px;display:block;border:0;object-fit:cover;}
+ncorps[class="nsuperlike"]{border-left:1px solid #aabbee;border-right:1px solid #aabbee;}
+.npseudo-superlike{display:block;font-size:14px;font-weight:bold;color:#6677bb;text-decoration:none;}
+.nsuperlike-msg{display:block;background:#f0f4ff;border-left:1px solid #aabbee;border-right:1px solid #aabbee;border-top:1px dashed #aabbee;padding:10px 14px;}
+.nsuperlike-label{display:block;font-size:9px;color:#6677bb;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;border:0;outline:0;}
+.nsuperlike-bulle{display:block;font-size:12px;color:#4455aa;font-style:italic;background:#fff;border-radius:0 10px 10px 10px;padding:8px 10px;border:1px solid #aabbee;}
+.nsuperlike-bas{background:#8899dd;}
 
-.an-superlike{background:#fff;border:1.5px solid #aabbee;}
-.an-superlike .an-header{background:#f0f4ff;}
-.an-superlike .an-icon{background:#dde4ff;}
-.an-superlike .an-pseudo{color:#4455aa;}
-.an-superlike .an-tag{background:#dde4ff;color:#4455aa;}
-.an-superlike .an-label{color:#6677bb;}
-.an-superlike .an-msg{background:#f0f4ff;color:#4455aa;}
-
-.an-pass{background:#fff;border:1.5px solid #e0d5cc;}
-.an-pass .an-icon{background:#f5f5f5;}
-.an-pass .an-pseudo{color:#888;}
-.an-pass .an-txt{color:#aaa;}
-.an-pass .an-date{color:#ddd;}
-.an-pass .an-msg{background:#f9f9f9;color:#aaa;font-style:normal;}
-
+/* MATCH */
 billet{display:block;width:320px;margin:0 auto;font-family:Arial,sans-serif;}
 bentete{display:block;background:#9e2456;border-radius:16px 16px 0 0;padding:18px 20px 14px;text-align:center;}
 bsurtitre{display:block;font-size:10px;font-weight:bold;letter-spacing:3px;color:rgba(255,255,255,0.5);text-transform:uppercase;margin-bottom:8px;}
