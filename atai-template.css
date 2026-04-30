@@ -1,8 +1,8 @@
 .atai-wrap{width:310px;border:1px solid #d4a0b0;border-radius:16px;overflow:hidden;font-family:Arial,sans-serif;background:#f9edf3;margin:0 auto;padding:0;}
 .atai-header{background:#9e2456;text-align:center;padding:14px 0 10px;border-bottom:1px solid #7a1a40;display:block;margin:0;}
 .atai-header img{width:90px;height:90px;display:inline-block;border:0;}
-.atai-perso{position:relative;width:310px;height:370px;overflow:hidden;display:block;margin:0;padding:0;}
-.atai-perso>img{width:310px;height:370px;display:block;border:0;object-fit:cover;margin:0;padding:0;}
+.atai-perso{position:relative;width:310px;height:310px;overflow:hidden;display:block;margin:0;padding:0;}
+.atai-perso>img{width:310px;height:310px;display:block;border:0;object-fit:cover;margin:0;padding:0;}
 .atai-perso-infos{position:absolute;bottom:0;left:0;width:100%;background:linear-gradient(transparent,rgba(100,10,50,0.80));padding:40px 14px 12px;box-sizing:border-box;font-size:14px;line-height:1.5;}
 .atai-name{font-size:18px;color:#fff;font-weight:bold;}
 .atai-age{font-size:13px;color:rgba(255,255,255,0.85);}
