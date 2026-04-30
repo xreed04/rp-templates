@@ -54,4 +54,4 @@ bpied{display:block;background:#fbeef4;border:1px solid #f0d0e0;border-top:0;pad
 baccroche{display:block;font-size:10px;color:#c45c8a;font-style:italic;}
 bbas{display:block;background:#9e2456;border-radius:0 0 16px 16px;padding:7px 14px;text-align:left;}
 bbauche{display:inline-block;font-size:9px;color:rgba(255,255,255,0.5);letter-spacing:1px;}
-bdroite{display:none;}
+bdroite{display:inline-block;font-size:9px;color:rgba(255,255,255,0.3);float:right;}
