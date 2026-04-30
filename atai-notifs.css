@@ -1,13 +1,13 @@
 .an{font-family:Arial,sans-serif;width:320px;border-radius:16px;overflow:hidden;margin-bottom:16px;}
 .an-header{padding:10px 14px;display:flex;align-items:center;gap:10px;}
-.an-icon{width:36px;height:36px;border-radius:50%;text-align:center;line-height:36px;font-size:18px;flex-shrink:0;display:inline-block;}
-.an-meta{flex:1;display:inline-block;vertical-align:middle;}
+.an-icon{width:36px;height:36px;border-radius:50%;text-align:center;line-height:36px;font-size:18px;flex-shrink:0;display:inline-block;vertical-align:middle;}
+.an-meta{flex:1;display:inline-block;vertical-align:middle;padding-left:8px;}
 .an-pseudo{font-size:13px;font-weight:bold;text-decoration:none;}
 .an-txt{font-size:12px;color:#888;}
 .an-date{font-size:10px;color:#c4b5ae;display:block;margin-top:2px;}
 .an-tag{display:inline-block;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:bold;}
 .an-body{padding:0 14px 12px;}
-.an-label{font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5px;display:block;padding-top:10px;margin-bottom:4px;}
+.an-label{font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5px;display:block;padding-top:10px;margin-bottom:4px;border:0 !important;outline:0 !important;}
 .an-msg{border-radius:0 12px 12px 12px;padding:8px 12px;font-size:12px;font-style:italic;line-height:1.5;}
 
 .an-like{background:#fff;border:1.5px solid #f0c0d0;}
