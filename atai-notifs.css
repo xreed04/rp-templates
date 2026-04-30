@@ -40,3 +40,27 @@
 .an-pass .an-txt{color:#aaa;}
 .an-pass .an-date{color:#ddd;}
 .an-pass .an-msg{background:#f9f9f9;color:#aaa;font-style:normal;}
+.billet{width:320px;font-family:Arial,sans-serif;margin:0 auto;}
+.billet-entete{background:#9e2456;border-radius:16px 16px 0 0;padding:18px 20px 14px;text-align:center;}
+.billet-surtitre{font-size:10px;font-weight:bold;letter-spacing:3px;color:rgba(255,255,255,0.5);text-transform:uppercase;display:block;margin-bottom:8px;}
+.billet-titre{font-size:22px;font-weight:bold;color:#fff;display:block;margin-bottom:2px;}
+.billet-sous-date{font-size:11px;color:rgba(255,255,255,0.6);display:block;}
+.billet-corps{background:#fff;border-left:1px solid #f0d0e0;border-right:1px solid #f0d0e0;padding:16px 20px;}
+.billet-duo{text-align:center;}
+.billet-perso{display:inline-block;vertical-align:middle;text-align:center;margin:0 8px;}
+.billet-photo{width:56px;height:56px;border-radius:50%;border:2px solid #f0c0d0;overflow:hidden;display:block;margin:0 auto 6px;}
+.billet-photo img{width:56px;height:56px;display:block;border:0;object-fit:cover;}
+.billet-prenom{font-size:13px;font-weight:bold;color:#9e2456;display:block;}
+.billet-croix{display:inline-block;vertical-align:middle;font-size:20px;color:#d4a0b0;margin:0 4px;}
+.billet-pointille{border-top:1px dashed #f0d0e0;margin:14px -20px;}
+.billet-details{display:flex;justify-content:space-around;margin-top:12px;}
+.billet-detail{text-align:center;flex:1;}
+.billet-detail-titre{font-size:9px;color:#c4b5ae;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:3px;}
+.billet-detail-valeur{font-size:12px;font-weight:bold;color:#5a3040;display:block;}
+.billet-separateur{width:1px;background:#f0d0e0;}
+.billet-pied{background:#fbeef4;border:1px solid #f0d0e0;border-top:0;padding:10px 20px;text-align:center;}
+.billet-accroche{font-size:10px;color:#c45c8a;font-style:italic;}
+.billet-bas{background:#9e2456;border-radius:0 0 16px 16px;padding:10px 20px;}
+.billet-bas-contenu{display:flex;justify-content:space-between;align-items:center;}
+.billet-bas-gauche{font-size:9px;color:rgba(255,255,255,0.5);letter-spacing:1px;}
+.billet-bas-droite{font-size:9px;color:rgba(255,255,255,0.3);}
