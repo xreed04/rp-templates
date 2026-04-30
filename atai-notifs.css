@@ -28,6 +28,7 @@ ncorps[class="nsuperlike"]{border-left:1px solid #aabbee;border-right:1px solid 
 .nsuperlike-bulle{display:block;font-size:12px;color:#4455aa;font-style:italic;background:#fff;border-radius:0 10px 10px 10px;padding:8px 10px;border:1px solid #aabbee;}
 .nsuperlike-bas{background:#8899dd;}
 
+/* MATCH */
 billet{display:block;width:320px;margin:0 auto;font-family:Arial,sans-serif;}
 bentete{display:block;background:#9e2456;border-radius:16px 16px 0 0;padding:18px 20px 14px;text-align:center;}
 bsurtitre{display:block;font-size:10px;font-weight:bold;letter-spacing:3px;color:rgba(255,255,255,0.5);text-transform:uppercase;margin-bottom:8px;}
