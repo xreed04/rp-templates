@@ -25,15 +25,6 @@
 .an-superlike .an-label{color:#6677bb;}
 .an-superlike .an-msg{background:#f0f4ff;color:#4455aa;}
 
-.an-match{background:#fff;border:1.5px solid #9e2456;}
-.an-match .an-header{background:#9e2456;}
-.an-match .an-icon{background:rgba(255,255,255,0.2);}
-.an-match .an-pseudo{color:#ffc8e0;}
-.an-match .an-txt{color:#fff;}
-.an-match .an-date{color:rgba(255,255,255,0.6);}
-.an-match .an-label{color:#c45c8a;}
-.an-match .an-msg{background:#fbeef4;color:#5a3040;font-style:normal;margin-top:10px;}
-
 .an-pass{background:#fff;border:1.5px solid #e0d5cc;}
 .an-pass .an-icon{background:#f5f5f5;}
 .an-pass .an-pseudo{color:#888;}
@@ -61,6 +52,6 @@ bdetailval{display:block;font-size:12px;font-weight:bold;color:#5a3040;}
 bseparateur{display:inline-block;vertical-align:middle;width:1px;height:30px;background:#f0d0e0;}
 bpied{display:block;background:#fbeef4;border:1px solid #f0d0e0;border-top:0;padding:10px 20px;text-align:center;}
 baccroche{display:block;font-size:10px;color:#c45c8a;font-style:italic;}
-bbas{display:block;background:#9e2456;border-radius:0 0 16px 16px;padding:10px 20px;}
+bbas{display:block;background:#9e2456;border-radius:0 0 16px 16px;padding:7px 14px;text-align:left;}
 bbauche{display:inline-block;font-size:9px;color:rgba(255,255,255,0.5);letter-spacing:1px;}
-bdroite{display:inline-block;float:right;font-size:9px;color:rgba(255,255,255,0.3);}
+bdroite{display:none;}
