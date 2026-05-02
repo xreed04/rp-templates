@@ -1,0 +1,257 @@
+/* ════════════════════════════════════════
+   SHINSEI CITY — Rapport de Milice
+   À coller dans la feuille de style ForumActif
+   OU héberger sur GitHub et lier via <link>
+════════════════════════════════════════ */
+
+.sc-rapport {
+  font-family: 'Courier New', monospace;
+  max-width: 680px;
+  margin: 0 auto;
+  background: #0a0f1a;
+  border: 1px solid #1e2d42;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #c8d8e8;
+}
+
+/* En-tête */
+.sc-rapport-header {
+  background: #06101e;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e2d42;
+}
+.sc-rapport-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.sc-rapport-logo-icon {
+  width: 38px;
+  height: 38px;
+  border: 2px solid #c0392b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.sc-rapport-org {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #6a8aaa;
+  line-height: 1.6;
+}
+.sc-rapport-org span {
+  display: block;
+  font-size: 8px;
+  color: #445566;
+  letter-spacing: 1.5px;
+}
+.sc-rapport-date {
+  text-align: right;
+  font-size: 9px;
+  color: #445566;
+  line-height: 1.8;
+}
+.sc-rapport-date strong {
+  display: block;
+  color: #c0392b;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+/* Bandeau alerte */
+.sc-rapport-alert {
+  background: rgba(192, 57, 43, 0.1);
+  border-bottom: 1px solid rgba(192, 57, 43, 0.3);
+  padding: 7px 20px;
+  font-size: 10px;
+  color: #c0392b;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sc-rapport-alert::before {
+  content: '▲';
+  font-size: 10px;
+}
+
+/* Corps */
+.sc-rapport-body {
+  padding: 20px;
+}
+
+/* Séparateur section */
+.sc-section-title {
+  font-size: 9px;
+  letter-spacing: 2.5px;
+  color: #445566;
+  border-bottom: 1px solid #1e2d42;
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+/* Sujets */
+.sc-sujets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.sc-sujet {
+  border: 1px solid #1e2d42;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.sc-sujet-photo {
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  background: #0d1825;
+}
+.sc-sujet-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  filter: brightness(0.85) saturate(0.7);
+}
+.sc-sujet-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #c0392b;
+  color: #fff;
+  font-size: 8.5px;
+  letter-spacing: 1.5px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.sc-sujet-info {
+  padding: 10px 12px;
+  background: #0d1825;
+  border-top: 1px solid #1e2d42;
+}
+.sc-sujet-nom {
+  font-size: 13px;
+  font-weight: bold;
+  color: #d8e8f8;
+  margin-bottom: 7px;
+  letter-spacing: 0.5px;
+}
+.sc-sujet-table {
+  width: 100%;
+  font-size: 10px;
+  border-collapse: collapse;
+}
+.sc-sujet-table td {
+  padding: 2px 0;
+  vertical-align: top;
+}
+.sc-sujet-table td:first-child {
+  color: #445566;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+.sc-sujet-table td:last-child {
+  color: #c8d8e8;
+  text-align: right;
+}
+.sc-statut-rouge { color: #c0392b !important; font-weight: bold; }
+.sc-statut-vert  { color: #27ae60 !important; }
+
+/* Localisation */
+.sc-localisation {
+  background: #0d1825;
+  border: 1px solid #1e2d42;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+.sc-loc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.sc-loc-item-label {
+  font-size: 8.5px;
+  letter-spacing: 1px;
+  color: #445566;
+  margin-bottom: 3px;
+}
+.sc-loc-item-val {
+  font-size: 11px;
+  color: #c8d8e8;
+}
+.sc-loc-live { color: #27ae60 !important; }
+.sc-loc-detail {
+  border-top: 1px solid #1e2d42;
+  padding-top: 10px;
+  font-size: 10px;
+  color: #c8d8e8;
+  line-height: 1.7;
+}
+.sc-loc-detail-label {
+  font-size: 8.5px;
+  letter-spacing: 1px;
+  color: #445566;
+  margin-bottom: 4px;
+}
+
+/* Motif */
+.sc-motif {
+  font-size: 11.5px;
+  color: #c8d8e8;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+.sc-motif strong { color: #c0392b; }
+
+/* Directive */
+.sc-directive {
+  background: rgba(192, 57, 43, 0.06);
+  border: 1px solid rgba(192, 57, 43, 0.25);
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+.sc-directive-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #c0392b;
+  margin-bottom: 7px;
+}
+.sc-directive-text {
+  font-size: 11px;
+  color: #c8d8e8;
+  line-height: 1.7;
+}
+
+/* Pied */
+.sc-rapport-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #1e2d42;
+  padding-top: 12px;
+  font-size: 9px;
+  color: #445566;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sc-rapport-stamp {
+  background: #c0392b;
+  color: #fff;
+  font-size: 8.5px;
+  letter-spacing: 1.5px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
