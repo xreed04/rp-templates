@@ -15,8 +15,8 @@ milice-section-label{display:block;font-size:10px;letter-spacing:2px;color:#555;
 milice-sujets{display:block;font-size:0;margin-bottom:20px;}
 milice-sujet{display:inline-block;vertical-align:top;width:48%;margin-right:3%;background:#161b22;border:1px solid #30363d;border-radius:4px;overflow:hidden;font-size:12px;}
 milice-sujet:last-child{margin-right:0;}
-milice-sujet-header{display:block;background:#0d1117;padding:5px 12px;border-bottom:1px solid #30363d;}
-milice-sujet-tag{display:inline-block;font-size:9px;letter-spacing:2px;color:#8b0000;text-transform:uppercase;}
+milice-sujet-header{display:block;background:#0d1117;padding:5px 12px;border-bottom:1px solid #30363d;text-align:right;}
+milice-sujet-tag{display:none;}
 milice-sujet-id{display:inline-block;float:right;font-size:9px;color:#333;}
 milice-sujet-photo{display:block;width:100%;height:180px;overflow:hidden;border-bottom:1px solid #30363d;background:#0d1117;}
 milice-sujet-photo img{width:100%;height:180px;display:block;border:0;object-fit:cover;}
