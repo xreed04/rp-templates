@@ -117,16 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 18);
   }
 
-  /* ─── SCAN LINE SPEED VARIATION ─── */
+  /* ─── SCAN LINE — désactivée ─── */
   const scanLine = document.querySelector('.scan-line');
-  if (scanLine) {
-    const randomizeScan = () => {
-      const duration = 4 + Math.random() * 4;
-      scanLine.style.animationDuration = `${duration}s`;
-      setTimeout(randomizeScan, duration * 1000);
-    };
-    setTimeout(randomizeScan, 6000);
-  }
+  if (scanLine) { scanLine.remove(); }
 
   /* ─── NOISE OVERLAY FLICKER ─── */
   const container = document.querySelector('.container');
