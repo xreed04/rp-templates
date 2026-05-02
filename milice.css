@@ -25,8 +25,8 @@ milice-sujet-nom{display:block;font-size:14px;font-weight:700;color:#e6edf3;marg
 milice-sujet-details{display:block;font-size:10px;color:#555;border-top:1px solid #21262d;padding-top:8px;}
 milice-sujet-ligne{display:block;padding:3px 0;text-align:left;}
 milice-sujet-val{display:block;text-align:right;color:#8b8b8b;}
-milice-sujet-statut{display:block;padding:5px 0 3px;margin-top:4px;border-top:1px solid #21262d;font-size:10px;color:#555;text-align:left;}
-milice-sujet-statut-val{display:block;text-align:right;color:#cc2222;font-weight:700;}
+milice-sujet-statut{display:block;padding:5px 0 3px;font-size:10px;color:#555;overflow:hidden;}
+milice-sujet-statut-val{display:inline-block;float:right;color:#cc2222;font-weight:700;}
 milice-gps{display:block;background:#0a1a0a;border:1px solid #1a3a1a;border-radius:4px;padding:14px;margin-bottom:20px;}
 milice-gps-grid{display:block;font-size:0;margin-bottom:12px;}
 milice-gps-cell{display:inline-block;vertical-align:top;width:48%;margin-right:3%;font-size:12px;margin-bottom:8px;}
