@@ -33,22 +33,7 @@
   width: 100%;
 }
 
-.scan-line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(46,204,113,0.3), transparent);
-  animation: scan 6s linear infinite;
-  pointer-events: none;
-  z-index: 1000;
-}
-
-@keyframes scan {
-  0%  { top: 0; }
-  100%{ top: 100%; }
-}
+.scan-line { display: none; }
 
 /* ─── CONTAINER ─── */
 .container {
