@@ -235,6 +235,17 @@
   text-align: center;
 }
 
+.sujet-status-secondary-blue {
+  background: #358ABD;
+  color: #fff;
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #2e86c1;
+}
+
 .sujet-status-secondary {
   font-size: 10px;
   color: var(--text-dim);
