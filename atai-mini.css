@@ -3,10 +3,10 @@
 .mini-head-l{display:inline-block;font-size:11px;letter-spacing:2px;color:rgba(255,255,255,0.65);text-transform:uppercase;vertical-align:middle;}
 .mini-head-r{display:inline-block;float:right;font-size:10px;color:rgba(255,255,255,0.45);vertical-align:middle;}
 .mini-table{width:100%;border-collapse:collapse;border:0;}
-.mini-td-photo{width:140px;height:1px;padding:0;border:0;vertical-align:top;overflow:hidden;}
+.mini-td-photo{width:140px;height:220px;max-height:220px;padding:0;border:0;vertical-align:top;overflow:hidden;}
 .mini-photo{height:100%;}
 .mini-photo img{width:140px;height:100%;display:block;border:0;object-fit:cover;object-position:center top;}
-.mini-td-right{padding:0;border:0;vertical-align:top;}
+.mini-td-right{padding:0;border:0;vertical-align:top;overflow:hidden;max-height:220px;}
 .mini-info{padding:14px 16px;}
 .mini-nom{display:block;font-size:17px;font-weight:bold;color:#9e2456;margin-bottom:2px;}
 .mini-age{display:block;font-size:11px;color:#c4b5ae;margin-bottom:12px;}
