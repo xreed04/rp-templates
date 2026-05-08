@@ -1,0 +1,17 @@
+.ann-wrap{width:380px;font-family:Arial,sans-serif;border:1px solid #d4a0b0;border-radius:16px;overflow:hidden;background:#fff;margin:0 auto;}
+.ann-head{background:#9e2456;padding:14px 18px;}
+.ann-head-titre{display:block;font-size:13px;font-weight:bold;color:#fff;letter-spacing:1px;}
+.ann-head-sub{display:block;font-size:10px;color:rgba(255,255,255,0.5);margin-top:3px;letter-spacing:1px;}
+.ann-section{padding:10px 16px 6px;}
+.ann-label{display:block;font-size:9px;font-weight:bold;text-transform:uppercase;letter-spacing:2px;color:#c45c8a;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid #f0d0e0;}
+.ann-entree{overflow:hidden;padding:9px 0;border-bottom:1px dashed #f5eef2;}
+.ann-entree:last-child{border-bottom:0;}
+.ann-photo{display:inline-block;vertical-align:middle;width:44px;height:44px;border-radius:10px;overflow:hidden;border:1px solid #f0c0d0;background:#fbeef4;}
+.ann-photo img{width:44px;height:44px;display:block;object-fit:cover;border:0;}
+.ann-info{display:inline-block;vertical-align:middle;padding-left:12px;width:240px;}
+.ann-annee{display:block;font-size:10px;color:#c4b5ae;margin-top:3px;}
+.ann-statut-cours{display:inline-block;border-radius:20px;padding:2px 8px;font-size:9px;font-weight:bold;background:#fbeef4;border:1px solid #d4789e;color:#9e2456;}
+.ann-statut-fin{display:inline-block;border-radius:20px;padding:2px 8px;font-size:9px;font-weight:bold;background:#f5f5f5;border:1px solid #ccc;color:#888;}
+.ann-lien{display:inline-block;float:right;font-size:10px;color:#9e2456;text-decoration:none;border:1px solid #d4a0b0;border-radius:20px;padding:4px 12px;background:#fbeef4;vertical-align:middle;margin-top:10px;}
+.ann-lien-fin{display:inline-block;float:right;font-size:10px;color:#aaa;text-decoration:none;border:1px solid #ddd;border-radius:20px;padding:4px 12px;background:#f9f9f9;vertical-align:middle;margin-top:10px;}
+.ann-sep{height:6px;background:#f9edf3;}
