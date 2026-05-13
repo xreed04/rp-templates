@@ -1,0 +1,31 @@
+.kc{font-family:Arial,Helvetica,sans-serif;max-width:480px;margin:0 auto}
+.kc *{box-sizing:border-box;margin:0;padding:0}
+.kc-outer{background:#fdf8f2;border:2px solid #e8c4a0;padding:6px;position:relative}
+.kc-inner{background:#fdf8f2;border:1px dashed #d4a882;padding:20px 22px 16px}
+.kc-title{text-align:center;margin-bottom:4px}
+.kc-title-main{font-family:cursive,'Times New Roman',serif;font-size:18px;color:#3d2a1a;font-style:italic}
+.kc-title-sub{font-size:8px;letter-spacing:3px;color:#9a7255;text-transform:uppercase;margin-top:3px;font-family:Arial,sans-serif}
+.kc-sep{margin:12px 0;display:flex;align-items:center;gap:8px}
+.kc-sep-line{flex:1;height:1px;border-bottom:1px dashed #d4a882}
+.kc-sep-icon{font-size:11px;color:#d4a882;flex-shrink:0}
+.kc-list{display:flex;flex-direction:column;gap:0}
+.kc-item{display:flex;align-items:center;gap:12px;padding:9px 10px;border-bottom:1px dashed #edd8bc}
+.kc-item:last-child{border-bottom:none}
+.kc-checkbox{width:18px;height:18px;border:1.5px solid #c4a072;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#fff}
+.kc-check-mark{display:none;color:#fff;font-size:11px;font-weight:700;line-height:1}
+.kc-mascot-info{display:flex;align-items:center;gap:10px;flex:1}
+.kc-mascot-avatar{width:32px;height:32px;border-radius:50%;background:#f0e4d0;border:1px solid #d4a882;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:15px;overflow:hidden}
+.kc-mascot-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.kc-mascot-name{font-size:13px;color:#3d2a1a;font-family:cursive,'Times New Roman',serif;font-style:italic}
+.kc-mascot-zone{font-size:9px;letter-spacing:1px;color:#b8987a;text-transform:uppercase;margin-top:1px;font-family:Arial,sans-serif}
+.kc-mascot-badge{margin-left:auto;font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:2px 7px;border:1px solid #d4a882;color:#9a7255;background:#fff9f0;flex-shrink:0;font-family:Arial,sans-serif}
+.kc-item.found{opacity:.6}
+.kc-item.found .kc-checkbox{background:#c4a072;border-color:#c4a072}
+.kc-item.found .kc-check-mark{display:block}
+.kc-item.found .kc-mascot-name{text-decoration:line-through;text-decoration-color:#c4a072;text-decoration-thickness:1px}
+.kc-item.found .kc-mascot-badge{border-color:#c4a072;color:#7a5a3a;background:#fde8cc}
+.kc-badge-found{display:none}
+.kc-badge-notfound{display:inline}
+.kc-item.found .kc-badge-found{display:inline}
+.kc-item.found .kc-badge-notfound{display:none}
+.kc-foot{margin-top:14px;text-align:center;font-size:8px;letter-spacing:3px;color:#b8987a;text-transform:uppercase;font-family:Arial,sans-serif}
